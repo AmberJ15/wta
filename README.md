@@ -1,10 +1,10 @@
 # WTA
-William Thomas &amp; Associates
+## William Thomas &amp; Associates
 
 #### Client
 William Thomas & Associates
 
-#### Members
+#### Member
  + Amber J.
  + Ken S.
  + Janet W.
