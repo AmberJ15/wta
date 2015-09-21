@@ -1,5 +1,12 @@
-# WTA
-## William Thomas &amp; Associates
+# William Thomas & Associates
+
+###### A small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.
+
+
+[LINK](http://amberj15.github.io/wta/root/)
+
+
+## Project Overview
 
 #### Client
 William Thomas & Associates
