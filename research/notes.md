@@ -6,18 +6,30 @@
 ## Top goals for the website, as determined by the research
 
  + Increase number of tax returns processed during tax season.
- + Increased clients who are interested in retirement, estate planning and investment planning.
- + Increased engagement with our clients - via our “Tax Update” newsletter.
+ + Increase clients who are interested in retirement, estate planning and investment planning.
+ + Increase engagement with our clients - via our “Tax Update” newsletter.
 
 ## Content that is needed for the website, organized under sections
 
- + **About Us** — A small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.
- + **What We Offer** — Describe our various service offerings. We offer personal accounting, small business accounting, estate planning, retirement planning and investment planning
- + **What We Believe** — Describe our core values and passion for serving our community
- + **Subscriber** — Allow clients to subscribe to our “Tax Update” newsletter and read its content online
- + **Meet Our Team** — Allow clients to meet our team online, view their bios and contact them with questions
- + **Make an Appointment** — Make it simple for new clients to schedule their first appointment
- + **Read Testimonials** — Show testimonials from past clients
+ + **About Us** — We are a small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.
+    + **Meet Our Team** — Allow clients to meet our team online, view their bios and contact them with questions.
+    + **Read Testimonials** — Show testimonials from past clients.
+    + **What We Believe** — Describe our core values and passion for serving our community.
+    + **Contact Info** — Phone, Adress, Email, and Job Opputtunities.
+ + **What We Offer** — Describe our various service offerings. We offer personal accounting, small business accounting, estate planning, retirement planning and investment planning.
+   + Retirement Planning.
+   + Investment Planning.
+   + Tax Filing Services.
+   + Consulting.
+   + Litigation.
+   + ... etc. Each service should have it's own page. May be further organised by grouping related services.
+ + **Subscriber Newsletter** — Allow clients to subscribe to our “Tax Update” newsletter and read its content online.
+   + **Featured and New** — Currently trending topics.
+   + **Archive** — Search past articles by month.
+   + **Sign-up Page** — Register your email to recieve notifications.
+   + (**Event Calendar?**)
+ + **Make an Appointment** — Make it simple for new clients to schedule their first appointment.
+ + (**Resources?**) — Tax calculators, useful links, forms, and legal info.
 
 ## Types of templates/layouts needed, based on content.
 
@@ -42,7 +54,7 @@ We analysed Barnes, Walthall and H&R
 
 ~Amber
 
-## Design Aesthetic
+## Competitor Design Aesthetic
 
 Common Navigation
 
@@ -120,7 +132,7 @@ Layout
    + Mobile site features a sliding panel menu that can only be acessed at the top of the page.
  + H&R Block
    + Modular grid structure, use of squares.
-   + Absolutely positioned header bar.
+   + Fixed position header nav bar.
    + Mobile site features a sliding panel menu that can be accesed from the header bar.
 
-~Janet & Ken
+~Janet and Ken
