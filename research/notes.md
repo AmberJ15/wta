@@ -33,12 +33,12 @@
 We analysed Barnes, Walthall and H&R
 
  + Navigation
- ..+ The menu bars were located at the top for easy spotting and fast navigation. One didn’t have to look or scroll all over to find other pages.
+   + The menu bars were located at the top for easy spotting and fast navigation. One didn’t have to look or scroll all over to find other pages.
  + Content Voice & Tone
- ..+ Reading through the websites, there is an obvious business tone, based off the language and vocabulary used throughout the pages.
+   + Reading through the websites, there is an obvious business tone, based off the language and vocabulary used throughout the pages.
  + Design Aesthetic & Layout
- ..+ All home pages had a large picture to give a visual on what their company is about.
- ..+ There were bold colors and block text used throughout all 3 sites. 
+   + All home pages had a large picture to give a visual on what their company is about.
+   + There were bold colors and block text used throughout all 3 sites. 
 
 ~Amber
 
@@ -47,80 +47,80 @@ We analysed Barnes, Walthall and H&R
 Common Navigation
 
  + Barnes Wendling
- ..+ Main menu uses a dropdown menu on all pages.
- ..+ Subpages feature a secondary nav menu in the left sidebar.
- ..+ Subpages feature breadcrumbs just above the header text.
- ..+ 'Want to Know More?' Box appears on the right column in select pages.
- ..+ Less important links in header and footer.
+   + Main menu uses a dropdown menu on all pages.
+   + Subpages feature a secondary nav menu in the left sidebar.
+   + Subpages feature breadcrumbs just above the header text.
+   + 'Want to Know More?' Box appears on the right column in select pages.
+   + Less important links in header and footer.
  + Walthall
- ..+ Main menu uses a dropdown menu on all pages.
- ..+ Subpages feature a secondary nav menu to the right.
- ..+ Apply, Subscribe and Contact buttons appear on most pages.
- ..+ Back to Top button appears after scrolling down.
+   + Main menu uses a dropdown menu on all pages.
+   + Subpages feature a secondary nav menu to the right.
+   + Apply, Subscribe and Contact buttons appear on most pages.
+   + Back to Top button appears after scrolling down.
  + Manning & Associates
- ..+ Horizontal main menu, no sub menus.
- ..+ Hyperlinks.
- ..+ Lacks a search bar.
+   + Horizontal main menu, no sub menus.
+   + Hyperlinks.
+   + Lacks a search bar.
  + H&R Block
- ..+ Complex dropdown-hover-menu uses both link lists and icons.
- ..+ Subpages often feature a list of links to child pages, though ther is little consistency.
- ..+ Footer contains a comprehensive list of links, organized by section.
+   + Complex dropdown-hover-menu uses both link lists and icons.
+   + Subpages often feature a list of links to child pages, though ther is little consistency.
+   + Footer contains a comprehensive list of links, organized by section.
 
 Content Voice and Tone
 
  + Barnes Wendling
- ..+ Professional
- ..+ Warm and friendly
+   + Professional
+   + Warm and friendly
  + walthall
- ..+ Active voice
- ..+ "Cultivating, helping responsive"
+   + Active voice
+   + "Cultivating, helping responsive"
  + Manning & Associates
- ..+ "Highest ethical standards"
- ..+ Professional
+   + "Highest ethical standards"
+   + Professional
  + H&R Block
- ..+ Professional, informational
+   + Professional, informational
 
 Design Aesthetic
 
  + Barnes Wendling
- ..+ Warm natural colors — uses a maroon, tan, and olive green color pallete.
- ..+ Circluar photo images used to draw attention.
- ..+ Photography uses full color photos, dominated by warm colors and featuring smiling businessmen / businesswomen.
- ..+ Mostly sans serif type but sometimes accented with serif type.
- ..+ Mostly flat design, few gradients, and rectilinear composition.
+   + Warm natural colors — uses a maroon, tan, and olive green color pallete.
+   + Circluar photo images used to draw attention.
+   + Photography uses full color photos, dominated by warm colors and featuring smiling businessmen / businesswomen.
+   + Mostly sans serif type but sometimes accented with serif type.
+   + Mostly flat design, few gradients, and rectilinear composition.
  + Walthall
- ..+ Clean, modern, minimal.
- ..+ White, grey, and blue color pallete.
- ..+ Photography features technology and landscapes, rarely features people.
- ..+ Flat design, heavy use of circular elements.
+   + Clean, modern, minimal.
+   + White, grey, and blue color pallete.
+   + Photography features technology and landscapes, rarely features people.
+   + Flat design, heavy use of circular elements.
  + Manning & Associates
- ..+ Stark and often text heavy.
- ..+ White background tinges tinges of navy blue and light green.
- ..+ Textured background, on home page, not as modern.
- ..+ Light grey sans serif body text.
- ..+ Makes little use of photography.
+   + Stark and often text heavy.
+   + White background tinges tinges of navy blue and light green.
+   + Textured background, on home page, not as modern.
+   + Light grey sans serif body text.
+   + Makes little use of photography.
  + H&R Block
- ..+ Clean and modern
- ..+ White background and light colors.
- ..+ Flat design and sans serif type.
+   + Clean and modern
+   + White background and light colors.
+   + Flat design and sans serif type.
 
 Layout
 
  + Barnes Wendling
- ..+ 3 column grid with 1/3 for sidebar and main content, center column is widest.
- ..+ Not responsive.
+   + 3 column grid with 1/3 for sidebar and main content, center column is widest.
+   + Not responsive.
  + Walthall
- ..+ 4 column grid, with 2 columns for content and sidebar, image slider at top.
- ..+ Responsive typography and collapsible grids, menu collapses into a hidden side panel.
- ..+ Most pages feature a large image. Homepage features a carousel.
+   + 4 column grid, with 2 columns for content and sidebar, image slider at top.
+   + Responsive typography and collapsible grids, menu collapses into a hidden side panel.
+   + Most pages feature a large image. Homepage features a carousel.
  + Manning & Associates
- ..+ 2 column grid with main content and sidebar.
- ..+ 3 column grid on certain subpages.
- ..+ All gridded layouts are responsive and collapsible.
- ..+ Mobile site features a sliding panel menu that can only be acessed at the top of the page.
+   + 2 column grid with main content and sidebar.
+   + 3 column grid on certain subpages.
+   + All gridded layouts are responsive and collapsible.
+   + Mobile site features a sliding panel menu that can only be acessed at the top of the page.
  + H&R Block
- ..+ Modular grid structure, use of squares.
- ..+ Absolutely positioned header bar.
- ..+ Mobile site features a sliding panel menu that can be accesed from the header bar.
+   + Modular grid structure, use of squares.
+   + Absolutely positioned header bar.
+   + Mobile site features a sliding panel menu that can be accesed from the header bar.
 
 ~Janet & Ken
