@@ -3,19 +3,19 @@
 ###### A small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.
 
 
-## Top goals for the website, as determined by the research
+## Top goals for the website
 
  + Increase number of tax returns processed during tax season.
  + Increase clients who are interested in retirement, estate planning and investment planning.
- + Increase engagement with our clients - via our “Tax Update” newsletter.
+ + Increase engagement with our clients — via our “Tax Update” newsletter.
 
-## Content that is needed for the website, organized under sections
+## Content that is needed for the website, organized by section
 
  + **About Us** — We are a small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.
     + **Meet Our Team** — Allow clients to meet our team online, view their bios and contact them with questions.
     + **Read Testimonials** — Show testimonials from past clients.
     + **What We Believe** — Describe our core values and passion for serving our community.
-    + **Contact Info** — Phone, Adress, Email, and Job Opputtunities.
+    + **Contact Info** — Phone, Address, Email, and Job Opportunities.
  + **What We Offer** — Describe our various service offerings. We offer personal accounting, small business accounting, estate planning, retirement planning and investment planning.
    + Retirement Planning.
    + Investment Planning.
@@ -31,7 +31,7 @@
  + **Make an Appointment** — Make it simple for new clients to schedule their first appointment.
  + (**Resources?**) — Tax calculators, useful links, forms, and legal info.
 
-## Types of templates/layouts needed, based on content.
+## Types of templates / layouts needed, based on content
 
  + Home Page
  + Services
@@ -40,21 +40,27 @@
  + Scheduling Appointments Page
  + Review of Products and Services Page
 
-## Analysis of the most common themes from competitive websites.
+## Common themes from competitor websites.
 
-We analysed Barnes, Walthall and H&R
+We analyzed Barnes Wendling, Walthall, Manning & Associates, and H&R Block.
 
- + Navigation
+ + Common Navigation
    + The menu bars were located at the top for easy spotting and fast navigation. One didn’t have to look or scroll all over to find other pages.
- + Content Voice & Tone
+   + Menu items often triggered a drop down list when hovered over.
+   + Lower level pages often employed a secondary sidebar menu.
+   + Mobile sites placed the main menu in a hidden side panel.
+ + Content Voice and Tone
    + Reading through the websites, there is an obvious business tone, based off the language and vocabulary used throughout the pages.
+   + Most websites had a detailed about section complete with contacts, staff info, and testimonials.
+   + Most websites featured a Services section and an Industry section, as well as a Newsletter. H&R Block was different in that they had a heavier focus on tools and software.
  + Design Aesthetic & Layout
    + All home pages had a large picture to give a visual on what their company is about.
-   + There were bold colors and block text used throughout all 3 sites. 
+   + There were bold colors and block text used throughout all 3 sites.
+   + Most sites organized pages using a column based layout.
 
 ~Amber
 
-## Competitor Design Aesthetic
+## Overview of competitor website design aesthetics
 
 Common Navigation
 
@@ -70,12 +76,12 @@ Common Navigation
    + Apply, Subscribe and Contact buttons appear on most pages.
    + Back to Top button appears after scrolling down.
  + Manning & Associates
-   + Horizontal main menu, no sub menus.
+   + Horizontal main menu, no sub-menus.
    + Hyperlinks.
    + Lacks a search bar.
  + H&R Block
    + Complex dropdown-hover-menu uses both link lists and icons.
-   + Subpages often feature a list of links to child pages, though ther is little consistency.
+   + Subpages often feature a list of links to child pages, though there is little consistency.
    + Footer contains a comprehensive list of links, organized by section.
 
 Content Voice and Tone
@@ -95,19 +101,19 @@ Content Voice and Tone
 Design Aesthetic
 
  + Barnes Wendling
-   + Warm natural colors — uses a maroon, tan, and olive green color pallete.
-   + Circluar photo images used to draw attention.
+   + Warm natural colors — uses a maroon, tan, and olive green color palette.
+   + Circular photo images used to draw attention.
    + Photography uses full color photos, dominated by warm colors and featuring smiling businessmen / businesswomen.
    + Mostly sans serif type but sometimes accented with serif type.
    + Mostly flat design, few gradients, and rectilinear composition.
  + Walthall
    + Clean, modern, minimal.
-   + White, grey, and blue color pallete.
+   + White, grey, and blue color palette.
    + Photography features technology and landscapes, rarely features people.
    + Flat design, heavy use of circular elements.
  + Manning & Associates
    + Stark and often text heavy.
-   + White background tinges tinges of navy blue and light green.
+   + White background with tinges of navy blue and light green.
    + Textured background, on home page, not as modern.
    + Light grey sans serif body text.
    + Makes little use of photography.
@@ -129,10 +135,10 @@ Layout
    + 2 column grid with main content and sidebar.
    + 3 column grid on certain subpages.
    + All gridded layouts are responsive and collapsible.
-   + Mobile site features a sliding panel menu that can only be acessed at the top of the page.
+   + Mobile site features a sliding panel menu that can only be accessed at the top of the page.
  + H&R Block
    + Modular grid structure, use of squares.
    + Fixed position header nav bar.
-   + Mobile site features a sliding panel menu that can be accesed from the header bar.
+   + Mobile site features a sliding panel menu that can be accessed from the header bar.
 
 ~Janet and Ken
