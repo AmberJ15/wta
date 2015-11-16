@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro);
+
 body {
   max-width: 1000px;
   padding: 1em;
@@ -11,4 +13,9 @@ div, section, main, aside, header, footer {
 }
 img {
   width:100%;
+}
+h1
+{
+  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
+
 }
