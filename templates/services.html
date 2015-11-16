@@ -11,17 +11,46 @@
   </head>
   <body>
     <header>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paradeiser/0.4.2/min/paradeiser.min.css">
       <a title="Home" href="index.html">
         <img src="img/williamthomas.svg" border="0" alt="williamthomas" />
       </a>
-      <nav>
-        <ul>
-          <li><a title="Home"      href="index.html"     >Home</a></li>
-          <li><a title="Services"  href="services.html"  >Services</a></li>
-          <li><a title="Subscribe" href="subscribe.html" >Subscribe</a></li>
-          <li><a title="About"     href="#"              >About</a></li>
-        </ul>
-      </nav>
+      <nav class="paradeiser">
+      <a href="index.html">
+        <img src="img/smallsquare.svg" alt="Logo" class="williamthomas_logo">
+        </div>
+        <span>Home</span>
+      </a>
+      <a href="services.html">
+          <div class="paradeiser_icon_canvas">
+              <img src="img/menu_home.svg" alt="Navigate to Home">
+          </div>
+          <span>Services</span>
+      </a>
+      <a href="subscribe.html">
+          <div class="paradeiser_icon_canvas">
+              <img src="img/menu_shop.svg" alt="Navigate to Shop">
+          </div>
+          <span>Subscribe</span>
+      </a>
+      <div class="paradeiser_dropdown">
+       <a href="#paradeiser-more" id="paradeiser-dropdown">
+           <div class="paradeiser_icon_canvas">
+               <img src="img/menu_overflow.svg" alt="">
+           </div>
+           <span>More</span>
+       </a>
+       <ul class="paradeiser_children" id="paradeiser-more">
+           <li><a href="#">Terms of Service</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Yolo</a></li>
+           <li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
+           <li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
+           <li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>
+           <li id="greybox"><a href="#!"></a></li>
+       </ul>
+    </div>
+    </nav>
     </header>
     <main>
       <!-- page content goes here -->
