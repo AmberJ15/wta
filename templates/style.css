@@ -19,3 +19,31 @@ h1
   font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
 
 }
+input[type=submit] {
+  padding:5px 5px 10px 10px;
+  border:none;
+  color:white;
+  font-family:'Mandali';
+  font-size:110%;
+  background-color: #0F2167;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+input[type=email] {
+  color:#white;
+  font-family:'Mandali';
+  background-color:#D8D8D8;
+  border-color:979797;
+  border: solid 1px;
+  padding:5px;
+  margin-bottom:10px;
+}
+input[type=text] {
+  color:#white;
+  font-family:'Mandali';
+  background-color:#D8D8D8;
+  border-color:979797;
+  border: solid 1px;
+  padding:5px;
+  margin-bottom:10px;
+}
