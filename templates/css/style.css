@@ -1,10 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro);
-
 body {
   font-family: 'Mandali', Helvetica, Arial, sans-serif;
 }
 
 /* Layout */
+
+body {
+  padding-top: 60px;
+}
 
 .wrapper-main {
   max-width: 800px;
@@ -21,15 +23,20 @@ div, section, main, aside, header, footer {
   /*padding: .5em;*/
   /*margin-bottom: 1em;*/
 }
+
 img {
   width:100%;
 }
-h1,h2
-{
-  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
-  color:#67271E;
 
+/* Typography */
+
+h1, h2 {
+  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
+  color: #67271E;
 }
+
+/* Inputs */
+
 input[type=submit] {
   padding:5px 5px 10px 10px;
   border:none;
@@ -41,6 +48,7 @@ input[type=submit] {
   border-radius: 5px;
 
 }
+
 input[type=email] {
   color: white;
   font-family:'Mandali';
@@ -50,6 +58,7 @@ input[type=email] {
   padding:5px;
   margin-bottom:10px;
 }
+
 input[type=text] {
   color: white;
   font-family:'Mandali';
@@ -93,4 +102,26 @@ input[type=text] {
 .page-footer {
   background-color: #777777;
   color: #ffffff;
+}
+
+/* Misc */
+
+.circle-number {
+
+  width: 4rem;
+  height: 4rem;
+
+  display: block;
+
+  background-color: #0F2167;
+  border-radius: 2rem;
+  color: #fff;
+
+  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 4rem;
+  text-align: center;
+  vertical-align: bottom;
+
 }

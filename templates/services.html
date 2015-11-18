@@ -6,51 +6,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>William Thomas &amp; Associates</title>
     <meta name="description" content="A small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.">
-    <link href='https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro:700' rel='stylesheet' type='text/css' />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/paradeiser/0.4.2/min/paradeiser.min.css" rel="stylesheet"  />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/normalize.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
   </head>
   <body>
     <header>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paradeiser/0.4.2/min/paradeiser.min.css">
-      <a title="Home" href="index.html">
-        <img src="img/williamthomas.svg" border="0" alt="williamthomas" />
-      </a>
-      <nav class="paradeiser">
-      <a href="index.html">
-        <img src="img/smallsquare.svg" alt="Logo" class="williamthomas_logo">
-        </div>
-        <span>Home</span>
-      </a>
-      <a href="services.html">
+      <nav class="navbar-top paradeiser">
+        <a href="index.html" title="Home">
+          <img src="img/smallsquare.svg" alt="Logo" class="williamthomas_logo" />
+          <span>Home</span>
+        </a>
+        <a href="services.html">
           <div class="paradeiser_icon_canvas">
-              <img src="img/menu_home.svg" alt="Navigate to Home">
+            <!-- <img src="img/services.svg" alt="Navigate to Services"> -->
+            <i class="fa fa-archive"></i>
           </div>
           <span>Services</span>
-      </a>
-      <a href="subscribe.html">
+        </a>
+        <a href="subscribe.html">
           <div class="paradeiser_icon_canvas">
-              <img src="img/menu_shop.svg" alt="Navigate to Shop">
+            <img src="img/subscribe.svg" alt="Subscribe to Newsletter">
           </div>
           <span>Subscribe</span>
-      </a>
-      <div class="paradeiser_dropdown">
-       <a href="#paradeiser-more" id="paradeiser-dropdown">
-           <div class="paradeiser_icon_canvas">
-               <img src="img/menu_overflow.svg" alt="">
-           </div>
-           <span>More</span>
-       </a>
-       <ul class="paradeiser_children" id="paradeiser-more">
-           <li><a href="#">Terms of Service</a></li>
-           <li><a href="#">About Us</a></li>
-           <li><a href="#">Yolo</a></li>
-           <li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
-           <li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
-           <li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>
-           <li id="greybox"><a href="#!"></a></li>
-       </ul>
-    </div>
-    </nav>
+        </a>
+        <a href="#">
+          <div class="paradeiser_icon_canvas">
+            <img src="img/subscribe.svg" alt="About Us">
+          </div>
+          <span>About</span>
+        </a>
+        <div class="paradeiser_dropdown">
+          <a href="#paradeiser-more" id="paradeiser-dropdown">
+            <div class="paradeiser_icon_canvas">
+              <img src="img/menu_overflow.svg" alt="" />
+            </div>
+            <span>More</span>
+          </a>
+          <ul class="paradeiser_children" id="paradeiser-more">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Yolo</a></li>
+            <li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
+            <li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
+            <li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>
+            <li id="greybox"><a href="#!"></a></li>
+          </ul>
+        </div>
+      </nav>
     </header>
     <main>
       <!-- page content goes here -->
