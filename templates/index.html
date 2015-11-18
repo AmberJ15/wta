@@ -6,82 +6,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>William Thomas &amp; Associates</title>
     <meta name="description" content="A small, but growing, accounting firm that has prided itself in serving its local clientele across many generations.">
-    <link href='https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro' rel='stylesheet' type='text/css'>
-    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/headroom/0.7.0/headroom.min.js"></script>
+    <link href='https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro' rel='stylesheet' type='text/css' />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/paradeiser/0.4.2/min/paradeiser.min.css" rel="stylesheet"  />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
   </head>
   <body>
     <header>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/paradeiser/0.4.2/min/paradeiser.min.css">
-      <a title="Home" href="index.html">
-        <img src="img/williamthomas.svg" border="0" alt="williamthomas" />
-      </a>
-      <nav class="paradeiser">
-      <a href="index.html">
-        <img src="img/smallsquare.svg" alt="Logo" class="williamthomas_logo">
-        </div>
-        <span>Home</span>
-      </a>
-      <a href="services.html">
+      <nav class="navbar-top paradeiser">
+        <a href="index.html" title="Home">
+          <img src="img/smallsquare.svg" alt="Logo" class="williamthomas_logo" />
+          <span>Home</span>
+        </a>
+        <a href="services.html">
           <div class="paradeiser_icon_canvas">
-              <img src="img/services.svg" alt="Navigate to Services">
+            <!-- <img src="img/services.svg" alt="Navigate to Services"> -->
+            <i class="fa fa-archive"></i>
           </div>
           <span>Services</span>
-      </a>
-      <a href="subscribe.html">
+        </a>
+        <a href="subscribe.html">
           <div class="paradeiser_icon_canvas">
-              <img src="img/subscribe.svg" alt="Subscribe to Newsletter">
+            <img src="img/subscribe.svg" alt="Subscribe to Newsletter">
           </div>
           <span>Subscribe</span>
-      </a>
-      <div class="paradeiser_dropdown">
-       <a href="#paradeiser-more" id="paradeiser-dropdown">
-           <div class="paradeiser_icon_canvas">
-               <img src="img/menu_overflow.svg" alt="">
-           </div>
-           <span>More</span>
-       </a>
-       <ul class="paradeiser_children" id="paradeiser-more">
-           <li><a href="#">Terms of Service</a></li>
-           <li><a href="#">About Us</a></li>
-           <li><a href="#">Yolo</a></li>
-           <li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
-           <li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
-           <li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>
-           <li id="greybox"><a href="#!"></a></li>
-       </ul>
-   </div>
-</nav>
-
-    </header>
-    <main>
-      <!-- page content goes here -->
-      <h1>Introduction</h1>
-      <div>
-        <p>
-          William Thomas &amp; Associates is a full-service accounting firm serving clients throughout the area, dedicated to providing our clients with professional, personalized services and guidance in a wide range of financial and business needs. Today, more than ever, you need advisors who go beyond the basics. The team at William Thomas &amp; Associates take pride in the work we do for our clients to develop strong business strategies and explore creative ideas that will provide long-term benefits for your financial future. We strive to minimize your current and future tax liabilities, and serve as your guide through the necessary steps to help you grow your business and personal net worth. We encourage regular interaction between our team members and our most important asset - our clients!
-        </p>
-        <p>
-          On this website, you will find information about William Thomas &amp; Associates, including our list of services. We have also provided you with online resources to assist in the tax process and financial decision-making. These tools include downloadable tax forms and publications, financial calculators, news and links to other useful sites. Check out our news page and feel free to subscribe to our monthly newletter.  Whether you are an individual or business in the Greater Cleveland area, William Thomas &amp; Associates has years of valuable experience assisting professionals with their accounting needs.
-        </p>
-        <p>
-          Contact us today to see how we can help you build your net worth and assure your financial future.
-        </p>
-        <a href="#">Request an appointment</a>
-        <br />
-        <div>
-          <img src="img/photos/a_tax_adviser_can_help_you_with_your_taxes_and_improve_your_financial_health.jpg" />
+        </a>
+        <a href="#">
+          <div class="paradeiser_icon_canvas">
+            <img src="img/subscribe.svg" alt="About Us">
+          </div>
+          <span>About</span>
+        </a>
+        <div class="paradeiser_dropdown">
+          <a href="#paradeiser-more" id="paradeiser-dropdown">
+            <div class="paradeiser_icon_canvas">
+              <img src="img/menu_overflow.svg" alt="" />
+            </div>
+            <span>More</span>
+          </a>
+          <ul class="paradeiser_children" id="paradeiser-more">
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Yolo</a></li>
+            <li class="paradeiser-hidden-desktop"><a href="#">Hidden on desktop</a></li>
+            <li class="paradeiser-hidden-tablet"><a href="#">Hidden on tablet</a></li>
+            <li class="paradeiser-hidden-phone"><a href="#">Hidden on phone</a></li>
+            <li id="greybox"><a href="#!"></a></li>
+          </ul>
         </div>
-        <h2>Core Values</h2>
-        <ul>
-          <li>Honesty, integrity and ethics.</li>
-          <li>One firm working together for the benefit of its employees and clients.</li>
-          <li>Teamwork in an atmosphere of mutual respect and accountability.</li>
-          <li>Developing team members to help them achieve their full potential.</li>
-          <li>Provide exceptional service that focuses exclusively on tax, assurance and business consulting.</li>
-        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="wrapper-main">
+        <!-- page content goes here -->
+        <div class="wrapper-image">
+          <img class="logo-big" src="img/williamthomas.svg" alt="williamthomas" />
+        </div>
+        <h1>Introduction</h1>
+        <div>
+          <p>
+            William Thomas &amp; Associates is a full-service accounting firm serving clients throughout the area, dedicated to providing our clients with professional, personalized services and guidance in a wide range of financial and business needs. Today, more than ever, you need advisors who go beyond the basics. The team at William Thomas &amp; Associates take pride in the work we do for our clients to develop strong business strategies and explore creative ideas that will provide long-term benefits for your financial future. We strive to minimize your current and future tax liabilities, and serve as your guide through the necessary steps to help you grow your business and personal net worth. We encourage regular interaction between our team members and our most important asset - our clients!
+          </p>
+          <p>
+            On this website, you will find information about William Thomas &amp; Associates, including our list of services. We have also provided you with online resources to assist in the tax process and financial decision-making. These tools include downloadable tax forms and publications, financial calculators, news and links to other useful sites. Check out our news page and feel free to subscribe to our monthly newletter.  Whether you are an individual or business in the Greater Cleveland area, William Thomas &amp; Associates has years of valuable experience assisting professionals with their accounting needs.
+          </p>
+          <p>
+            Contact us today to see how we can help you build your net worth and assure your financial future.
+          </p>
+          <a href="#">Request an appointment</a>
+          <br />
+          <div>
+            <img src="img/photos/a_tax_adviser_can_help_you_with_your_taxes_and_improve_your_financial_health.jpg" />
+          </div>
+          <h2>Core Values</h2>
+          <ul>
+            <li>Honesty, integrity and ethics.</li>
+            <li>One firm working together for the benefit of its employees and clients.</li>
+            <li>Teamwork in an atmosphere of mutual respect and accountability.</li>
+            <li>Developing team members to help them achieve their full potential.</li>
+            <li>Provide exceptional service that focuses exclusively on tax, assurance and business consulting.</li>
+          </ul>
+        </div>
       </div>
     </main>
-    <footer>
+
+    <footer class="page-footer">
       <p>Copyright &copy; 2015 William Thomas &amp; Associates</p>
       <nav>
         <ul>

@@ -1,15 +1,25 @@
 @import url(https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro);
 
 body {
-  max-width: 1000px;
-  padding: 1em;
   font-family: 'Mandali', Helvetica, Arial, sans-serif;
 }
 
+/* Layout */
+
+.wrapper-main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.wrapper-image {
+  margin: 0 auto;
+  text-align: center;
+}
+
 div, section, main, aside, header, footer {
-  border: 1px solid lightgray;
-  padding: .5em;
-  margin-bottom: 1em;
+  /*border: 1px solid lightgray;*/
+  /*padding: .5em;*/
+  /*margin-bottom: 1em;*/
 }
 img {
   width:100%;
@@ -32,7 +42,7 @@ input[type=submit] {
 
 }
 input[type=email] {
-  color:#white;
+  color: white;
   font-family:'Mandali';
   background-color:#D8D8D8;
   border-color:979797;
@@ -41,7 +51,7 @@ input[type=email] {
   margin-bottom:10px;
 }
 input[type=text] {
-  color:#white;
+  color: white;
   font-family:'Mandali';
   background-color:#D8D8D8;
   border-color:979797;
@@ -49,4 +59,38 @@ input[type=text] {
   padding:5px;
   margin-bottom:10px;
 
+}
+
+/* Nav */
+
+.logo-big {
+  max-width: 400px;
+  margin: 1rem auto;
+}
+
+.navbar-top.paradeiser:first-child {
+  /*height: 120px;*/
+}
+
+.navbar-top a {
+  font-size: 2rem;
+  color: #67271E;
+  transition: 0.5s;
+}
+
+.navbar-top .fa {
+  font-size: 2rem;
+  color: #67271E;
+  transition: 0.5s;
+}
+
+.navbar-top a:hover {
+  /*transform: scale(1.25);*/
+}
+
+/* Footer */
+
+.page-footer {
+  background-color: #777777;
+  color: #ffffff;
 }
