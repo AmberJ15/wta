@@ -141,3 +141,31 @@ input[type=text] {
   background-color: #f2f2f2;
   border-top: 5px solid #927350;
 }
+
+.section-values ul {
+  padding: 0;
+  list-style: none;
+}
+
+.section-values li {
+  padding-bottom: 1.5rem;
+}
+
+.section-values hr {
+  border-top: 2px solid #927350;
+  width: 50%;
+}
+
+.section-values p {
+  padding: 0 25%;
+  margin: 0.25rem 0 0.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 0.0125rem;
+  line-height: 1.66rem;
+}
+
+.img-block {
+  display: block;
+}
+
+img {line-height: 0;}
