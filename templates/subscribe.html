@@ -105,35 +105,70 @@
     </main><!-- /main -->
 
     <!-- footer -->
-    <footer class="page-footer">
+    <footer class="page-footer divider-top">
       <p>Copyright &copy; 2015 William Thomas &amp; Associates</p>
       <nav>
         <ul>
-          <li><a title="Home"      href="index.html"     >Home</a></li>
+          <li><a title="Home"      href="index.html"   >Home</a></li>
           <li><a title="Services"  href="services.html"  >Services</a></li>
           <li><a title="Subscribe" href="subscribe.html" >Subscribe</a></li>
-          <li><a title="About"     href="#"              >About</a></li>
-        </ul>
+          <li><a title="About"     href="#"         >About</a></li>
+      </ul>
       </nav>
       <nav>
         <ul>
-          <li><a title="Facebook" href="#">Facebook</a></li>
-          <li><a title="Twitter"  href="#">Twitter</a></li>
-          <li><a title="LinkedIn" href="#">LinkedIn</a></li>
+          <div class="social">
+          <li><a title="Facebook" href="#"class="footer links">Facebook</a></li>
+          <li><a title="Twitter"  href="#"class="footer links">Twitter</a></li>
+          <li><a title="LinkedIn" href="#"class="footer links">LinkedIn</a></li>
+        </div>
         </ul>
       </nav>
       <dl>
         <div class="contact">
-          <dt>Address</dt>
-        <dd>123 Shaler St. Suite #210<br />Cleveland OH, 44340</dd></div>
+          <dt><b>Address</b></dt>
+          <dd>123 Shaler St. Suite #210<br />Cleveland OH, 44340</dd>
+        </div>
         <div class="contact">
-          <dt>Phone</dt>
-        <dd>330.123.1144</dd></div>
+          <dt><b>Address</b></dt>
+          <dd>330.123.1144</dd>
+        </div>
         <div class="contact">
-          <dt>Email</dt>
-        <dd><a href="mailto:contact@wta.com">contact@wta.com</a></dd></div>
+          <dt><b>Email</b>
+          <dd><a href="mailto:contact@wta.com">contact@wta.com</a></dd>
+        </div>
       </dl>
     </footer><!-- /footer -->
+
+    <!-- JavaScript -->
+    <script>
+        // enabling to open the overflow menu as the pure css link
+        // would toggle a scroll and therefore hide the menu
+        document.getElementById("paradeiser-dropdown").addEventListener("click", function(event){
+            // stopping the scroll
+            event.preventDefault();
+            // toggling the class
+            document.getElementById("paradeiser-more").classList.toggle("open");
+        });
+
+        // hide the menu on click onto greybox
+        document.getElementById("greybox").addEventListener("click", function(event){
+            // stopping the scroll
+            event.preventDefault();
+            // toggling the class
+            document.getElementById("paradeiser-more").classList.remove("open");
+        });
+
+        // enabling headroom
+        var myElement = document.querySelector(".paradeiser");
+        var headroom  = new Headroom(myElement, {
+            tolerance : 5,
+            onUnpin : function() {
+                document.getElementById("paradeiser-more").classList.remove("open");
+            }
+        });
+        headroom.init();
+    </script>
 
   </body><!-- /body -->
 
