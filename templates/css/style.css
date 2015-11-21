@@ -15,6 +15,10 @@
 
 /* Layout */
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 60px;
 }
@@ -80,12 +84,12 @@ h1, h2, h3 {
 }
 
 a:link {
-  text-decoration:none;
-  color:#67271E;
+  text-decoration: none;
+  color: #67271E;
 }
 
 a:hover {
-  text-decoration:underline;
+  text-decoration: underline;
 }
 
 input[type=submit],
@@ -97,32 +101,6 @@ input[type=text] {
 
 .centered {
   text-align: center;
-}
-
-.button {
-  padding: 5px 10px;
-  background-color: #0F2167;
-  color:white;
-  border: 0 none transparent;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 110%;
-  display:block;
-  width:200px;
-
-}
-
-.button-left {
-  padding: 5px 10px;
-  margin-bottom:15px;
-  background-color: #0F2167;
-  color:white;
-  border: 0 none transparent;
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-  font-size: 110%;
-  display:block;
-  width:360px;
 }
 
 /* Inputs */
@@ -144,6 +122,28 @@ input[type=text] {
   border: 1px solid #979797;
 }
 
+.button,
+.button-left {
+  width: 360px;
+  display: block;
+  padding: 5px 10px;
+  background-color: #0F2167;
+  border: 0 none transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 110%;
+}
+
+.button {
+  width: 200px;
+}
+
+.button-left {
+  width: 360px;
+  margin-bottom: 15px;
+}
+
 /* Nav */
 
 .logo-big {
@@ -152,7 +152,6 @@ input[type=text] {
 }
 
 .navbar-top.paradeiser:first-child {
-  /*height: 120px;*/
   border-bottom: 3px solid #927350;
 }
 
@@ -168,32 +167,47 @@ input[type=text] {
   background-color: #fff;
   color: #67271E;
   font-size: 1rem;
+  text-decoration: none;
   transition: background-color 0.5s;
 }
 
 .navbar-top.paradeiser .fa {
   font-size: 2rem;
   color: #67271E;
-  transition: 0.5s;
-}
-
-.navbar-top.paradeiser .paradeiser_children li {
-  border-bottom: 1px solid #927350;
-}
-
-.navbar-top.paradeiser .paradeiser_children li:first-child {
-  border-top: 3px solid #927350;
-}
-
-.navbar-top.paradeiser .paradeiser_children a {
-  padding: 1rem 0;
 }
 
 .navbar-top.paradeiser .paradeiser_children li:last-child a,
 .navbar-top.paradeiser .paradeiser_children li:last-child a.active,
 .navbar-top.paradeiser .paradeiser_children li:last-child a:hover {
-  /* This is the background overlay */
+  /* This is the background color overlay */
   background-color: rgba(146, 115, 80, 0.5);
+}
+
+.nav-list ul {
+  border-top: 3px solid #927350;
+}
+
+.nav-list li {
+  width: 100%;
+  display: inline-block;
+  padding: 0;
+}
+
+.nav-list a {
+  width: 100%;
+  display: inline-block;
+  padding: 1rem 1rem;
+  background-color: #fff;
+  border-bottom: 1px solid #927350;
+  color: #67271E;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: background-color 0.5s;
+}
+
+.nav-list a:hover {
+  background-color: #e4dcd4;
+  text-decoration: none;
 }
 
 /* Footer */
@@ -250,12 +264,9 @@ input[type=text] {
   list-style: none;
 }
 
-.feature-section li {
-  padding: 1.5rem 0;
-}
-
 .feature-section p {
   padding: 0;
+  padding-bottom: 3rem;
   margin: 0.5rem 0;
   font-size: 1.25rem;
   letter-spacing: 0.0125rem;
