@@ -189,9 +189,11 @@ input[type=text] {
   padding: 1rem 0;
 }
 
-.navbar-top.paradeiser .paradeiser_children li:last-child a {
+.navbar-top.paradeiser .paradeiser_children li:last-child a,
+.navbar-top.paradeiser .paradeiser_children li:last-child a.active,
+.navbar-top.paradeiser .paradeiser_children li:last-child a:hover {
   /* This is the background overlay */
-  /*background-color: rgba(146, 115, 80, 0.5);*/
+  background-color: rgba(146, 115, 80, 0.5);
 }
 
 /* Footer */
