@@ -109,6 +109,20 @@ input[type=text] {
   font-size: 110%;
   display:block;
   width:200px;
+
+}
+
+.button-left {
+  padding: 5px 10px;
+  margin-bottom:15px;
+  background-color: #0F2167;
+  color:white;
+  border: 0 none transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  display:block;
+  width:360px;
 }
 
 /* Inputs */
