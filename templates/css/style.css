@@ -1,13 +1,17 @@
-/* Brand Colors
+/*!
+ *
+ * William Thomas & Associates CSS Styles
+ *
+ */
+
+/*
+ * Brand Colors
  *
  * #0F2167 Blue
  * #67271E Maroon
  * #927350 Ugly Tan
+ *
  */
-
-body {
-  font-family: 'Mandali', Helvetica, Arial, sans-serif;
-}
 
 /* Layout */
 
@@ -20,13 +24,34 @@ body {
   margin: 0 auto;
 }
 
-.wrapper-image {
-  margin: 0 auto;
-  text-align: center;
+/* Twelve column grid */
+
+.row {
+  width: 100%;
 }
 
-div, section, main, aside, header, footer {
-  /*border: 1px solid lightgray;*/
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6,
+.col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  height: 100%;
+  display: inline-block;
+}
+
+.col-1  { width:  8.3333%; }
+.col-2  { width: 16.6666%; }
+.col-3  { width: 25%;      }
+.col-4  { width: 33.3333%; }
+.col-5  { width: 41.6666%; }
+.col-6  { width: 50%;      }
+.col-7  { width: 58.3333%; }
+.col-8  { width: 66.6666%; }
+.col-9  { width: 75%;      }
+.col-10 { width: 83.3333%; }
+.col-11 { width: 91.6666%; }
+.col-12 { width: 100%;     }
+
+/* Global */
+
+div, section, main, aside, header, footer, article {
   /*padding: .5em;*/
   /*margin-bottom: 1em;*/
 }
@@ -35,10 +60,22 @@ img {
   width:100%;
 }
 
+ul {
+  list-style: none;
+}
+
+nav ul {
+  padding: 0;
+}
+
 /* Typography */
 
-h1, h2 {
-  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
+body {
+  font-family: 'Mandali', Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
   color: #67271E;
 }
 
@@ -51,39 +88,34 @@ a:hover {
   text-decoration:underline;
 }
 
+input[type=submit],
+input[type=email],
+input[type=text] {
+  color: #fff;
+  font-family: 'Mandali', Helvetica, Arial, sans-serif;
+}
+
+.centered {
+  text-align: center;
+}
+
 /* Inputs */
 
 input[type=submit] {
-  padding:5px 5px 10px 10px;
-  border:none;
-  color:white;
-  font-family:'Mandali';
-  font-size:110%;
+  padding: 5px 10px;
   background-color: #0F2167;
+  border: 0 none transparent;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-
+  font-size: 110%;
 }
 
-input[type=email] {
-  color: white;
-  font-family:'Mandali';
-  background-color:#D8D8D8;
-  border-color:979797;
-  border: solid 1px;
-  padding:5px;
-  margin-bottom:10px;
-}
-
+input[type=email],
 input[type=text] {
-  color: white;
-  font-family:'Mandali';
-  background-color:#D8D8D8;
-  border-color:979797;
-  border: solid 1px;
-  padding:5px;
-  margin-bottom:10px;
-
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #D8D8D8;
+  border: 1px solid #979797;
 }
 
 /* Nav */
@@ -121,25 +153,65 @@ input[type=text] {
   text-align: center;
 }
 
-ul {
-  list-style:none;
+.page-footer dd {
+  margin: 0;
 }
 
-/* Misc */
+/* Feature Sections */
+
+.feature-section {
+  background-color: #f2f2f2;
+  color: #927350;
+}
+
+.feature-section .feature-heading {
+  margin: 2rem auto;
+}
+
+.feature-section .feature-heading h1,
+.feature-section .feature-heading h2,
+.feature-section .feature-heading h3,
+.feature-section .feature-heading h4,
+.feature-section .feature-heading h5,
+.feature-section .feature-heading h6 {
+  display: inline;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #927350;
+}
+
+.feature-section .feature-content {
+  padding: 1rem;
+}
+
+.feature-section ul {
+  padding: 0;
+  list-style: none;
+}
+
+.feature-section li {
+  padding: 1.5rem 0;
+}
+
+.feature-section p {
+  padding: 0;
+  margin: 0.5rem 0;
+  font-size: 1.25rem;
+  letter-spacing: 0.0125rem;
+  line-height: 1.75rem;
+}
 
 .circle-number {
 
   width: 4rem;
   height: 4rem;
 
-  display: block;
-  margin: 0 auto;
+  display: inline-block;
 
   background-color: #0F2167;
   border-radius: 2rem;
   color: #fff;
 
-  font-family: 'Source Serif Pro', Helvetica, Arial, sans-serif;
+  font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
   font-size: 1.5rem;
   font-weight: 700;
   line-height: 4rem;
@@ -148,38 +220,12 @@ ul {
 
 }
 
-.section-values {
-  color: #927350;
-  padding: 10px;
-  text-align: center;
-  background-color: #f2f2f2;
-  border-top: 5px solid #927350;
-}
-
-.section-values ul {
-  padding: 0;
-  list-style: none;
-}
-
-.section-values li {
-  padding-bottom: 1.5rem;
-}
-
-.section-values hr {
-  border-top: 2px solid #927350;
-  width: 50%;
-}
-
-.section-values p {
-  padding: 0 25%;
-  margin: 0.25rem 0 0.5rem;
-  font-size: 1.25rem;
-  letter-spacing: 0.0125rem;
-  line-height: 1.66rem;
-}
+/* Misc */
 
 .img-block {
   display: block;
 }
 
-img {line-height: 0;}
+.divider-top {
+  border-top: 5px solid #927350;
+}
