@@ -99,6 +99,18 @@ input[type=text] {
   text-align: center;
 }
 
+.button {
+  padding: 5px 10px;
+  background-color: #0F2167;
+  color:white;
+  border: 0 none transparent;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  font-size: 110%;
+  display:block;
+  width:200px;
+}
+
 /* Inputs */
 
 input[type=submit] {
@@ -155,6 +167,10 @@ input[type=text] {
 
 .page-footer dd {
   margin: 0;
+}
+
+dt {
+  color:#67271E;
 }
 
 /* Feature Sections */
@@ -220,6 +236,7 @@ input[type=text] {
 
 }
 
+
 /* Misc */
 
 .img-block {
@@ -228,4 +245,17 @@ input[type=text] {
 
 .divider-top {
   border-top: 5px solid #927350;
+}
+
+/* Media Queries */
+@media screen and (min-width:1000px) {
+  footer {
+  max-width:900px;
+  margin:auto;
+}
+.contact {
+  float:left;
+  padding-top:1em;
+  padding-bottom:2em;
+  width:33.3%;
 }
