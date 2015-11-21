@@ -42,6 +42,15 @@ h1, h2 {
   color: #67271E;
 }
 
+a:link {
+  text-decoration:none;
+  color:#67271E;
+}
+
+a:hover {
+  text-decoration:underline;
+}
+
 /* Inputs */
 
 input[type=submit] {
@@ -107,8 +116,13 @@ input[type=text] {
 /* Footer */
 
 .page-footer {
-  background-color: #777777;
-  color: #ffffff;
+  background-color: none;
+  color: #0F2167;
+  text-align: center;
+}
+
+ul {
+  list-style:none;
 }
 
 /* Misc */
