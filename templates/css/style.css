@@ -9,7 +9,7 @@
  *
  * #0F2167 Blue
  * #67271E Maroon
- * #927350 Ugly Tan
+ * #927350 Sandstone
  *
  */
 
@@ -153,22 +153,44 @@ input[type=text] {
 
 .navbar-top.paradeiser:first-child {
   /*height: 120px;*/
+  border-bottom: 3px solid #927350;
 }
 
-.navbar-top a {
+.navbar-top.paradeiser .paradeiser_children li {
+  background-color: #fff;
+}
+
+.navbar-top.paradeiser a {
+  padding: 1rem 0;
+  color: #67271E;
+  font-size: 1rem;
+  transition: background-color 0.5s;
+}
+
+.paradeiser_children li:first-child {
+  border-top: 3px solid #927350;
+}
+
+.paradeiser_children li {
+  border-bottom: 1px solid #927350;
+}
+
+.navbar-top.paradeiser .fa {
   font-size: 2rem;
   color: #67271E;
   transition: 0.5s;
 }
 
-.navbar-top .fa {
-  font-size: 2rem;
-  color: #67271E;
-  transition: 0.5s;
+.navbar-top.paradeiser .paradeiser_dropdown.active,
+.navbar-top.paradeiser .paradeiser_dropdown:hover,
+.navbar-top.paradeiser a.active,
+.navbar-top.paradeiser a:hover {
+  background-color: #e4dcd4;
+  text-decoration: none;
 }
 
-.navbar-top a:hover {
-  /*transform: scale(1.25);*/
+.navbar-top.paradeiser ul li:last-child a {
+  background-color: rgba(146, 115, 80, 0.5);
 }
 
 /* Footer */
