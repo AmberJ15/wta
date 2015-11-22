@@ -250,6 +250,12 @@ input[type=text] {
   width: 33.3%;
 }
 
+.resize {
+  width: 60px;
+  height: auto;
+  margin-right:5px;
+  text-align:center;
+}
 /* Feature Sections */
 
 .feature-section {
