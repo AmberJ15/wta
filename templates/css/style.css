@@ -266,8 +266,12 @@ input[type=text] {
   color: #927350;
 }
 
+.feature-section hr {
+  border-bottom: 2px solid #927350;
+}
+
 .feature-section .feature-heading {
-  margin: 2rem auto;
+  margin: 2rem auto 1rem;
 }
 
 .feature-section .feature-heading h1,
@@ -278,14 +282,14 @@ input[type=text] {
 .feature-section .feature-heading h6 {
   display: inline;
   padding-bottom: 0.5rem;
-  border-bottom: 2px solid #927350;
 }
 
 .feature-section .feature-content {
   padding: 1rem;
 }
 
-.feature-section ul {
+.feature-section .feature-list {
+  margin: 3rem auto 1rem;
   padding: 0;
   list-style: none;
 }
