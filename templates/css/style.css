@@ -249,6 +249,10 @@ input[type=text] {
   width: 33.3%;
 }
 
+.contact a:link {
+  color:#0F2167;
+}
+
 .resize {
   width: 60px;
   height: auto;
