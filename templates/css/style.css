@@ -1,8 +1,69 @@
+/* Reset */
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Basic Layout */
+
+html, body {
+  width: 100%;
+}
+
+body {
+  /*max-width: 1000px;*/
+  font-family: 'Mandali', Helvetica, Arial, sans-serif;
+}
+
+div, section, main, aside, header, footer {
+  
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Serif Pro', Times, serif;
+}
+
+main {
+	padding: 1em 5%;
+	padding-top: 3rem;
+	/*background-color: #DEC4A8;*/
+}
+
+main p {
+	line-height: 1.5rem;
+}
+
+/* Header Nav */
+
+header,
+nav ul {
+	width: 100%;
+	/*background-color: #67271E;*/
+	/*background-color: #927350;*/
+}
+
+header {
+	padding: 1rem 5%;
+}
+
+nav ul > li {
+	display : block;
+	float : left;
+	width: 25%;
+}
+=======
+@import url(https://fonts.googleapis.com/css?family=Mandali|Source+Serif+Pro);
+=======
 /*!
  *
  * William Thomas & Associates CSS Styles
  *
  */
+>>>>>>> origin/gh-pages
 
 /*
  * Brand Colors
@@ -107,7 +168,7 @@ h1, h2, h3 {
   color: #67271E;
 }
 
-a:link {
+a {
   text-decoration: none;
   color: #67271E;
 }
@@ -408,3 +469,4 @@ input[type=text] {
   }
 
 }
+
