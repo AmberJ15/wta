@@ -376,6 +376,9 @@ input[type=text] {
     .button-left {
       display:inline-block;
     }
+    .wrapper-main {
+      margin: 0 auto 30px 30px;
+  }
 }
 
 @media screen and (min-width: 320px) {
@@ -392,9 +395,6 @@ input[type=text] {
   .col-sm-10 { width: 83.3333%; }
   .col-sm-11 { width: 91.6666%; }
   .col-sm-12 { width: 100%;     }
-  .wrapper-main {
-    margin: 0 auto 30px 30px;
-}
 }
 
 @media screen and (min-width: 768px) {
