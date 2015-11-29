@@ -20,7 +20,7 @@ body {
 
 .wrapper-main {
   max-width: 800px;
-  margin: 0 auto 30px 30px;
+  margin: 0 auto;
 }
 
 /* Twelve column grid */
@@ -262,7 +262,7 @@ input[type=text] {
   float: left;
   padding-top: 1em;
   padding-bottom: 2em;
-  width: 33.3%;
+  width: 30%;
 }
 
 .contact a:link {
@@ -366,7 +366,16 @@ input[type=text] {
   .col-xs-10 { width: 83.3333%; }
   .col-xs-11 { width: 91.6666%; }
   .col-xs-12 { width: 100%;     }
-
+  .contact {
+    float: left;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    width: 30%;
+    font-size:70%;
+  }
+    .button-left {
+      display:inline-block;
+    }
 }
 
 @media screen and (min-width: 320px) {
@@ -383,16 +392,9 @@ input[type=text] {
   .col-sm-10 { width: 83.3333%; }
   .col-sm-11 { width: 91.6666%; }
   .col-sm-12 { width: 100%;     }
-  .button-left {
-    display:inline-block;
-  }
-    .contact {
-      float: left;
-      padding-top: 1em;
-      padding-bottom: 2em;
-      width: 30%;
-      font-size:70%;
-    }
+  .wrapper-main {
+    margin: 0 auto 30px 30px;
+}
 }
 
 @media screen and (min-width: 768px) {
