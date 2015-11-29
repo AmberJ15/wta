@@ -384,8 +384,8 @@ input[type=text] {
   .col-sm-11 { width: 91.6666%; }
   .col-sm-12 { width: 100%;     }
   .button-left {
-    width: 100%;
-    display:inline-block;}
+    display:inline-block;
+  }
     .contact {
       float: left;
       padding-top: 1em;
