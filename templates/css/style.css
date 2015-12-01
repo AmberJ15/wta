@@ -156,6 +156,11 @@ input[type=text] {
   font-size: 110%;
 }
 
+.action-link {
+  width: 100%;
+  display: block;
+}
+
 /* Nav */
 
 .logo-big {
@@ -275,6 +280,7 @@ input[type=text] {
   margin-right:5px;
   text-align:center;
 }
+
 /* Feature Sections */
 
 .feature-section {
@@ -411,6 +417,11 @@ input[type=text] {
   .col-md-10 { width: 83.3333%; }
   .col-md-11 { width: 91.6666%; }
   .col-md-12 { width: 100%;     }
+
+  .action-link {
+    width: auto;
+    display: inline-block;
+  }
 
 }
 @media screen and (max-width: 860px) {
