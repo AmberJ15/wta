@@ -281,6 +281,25 @@ input[type=text] {
   text-align:center;
 }
 
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav > ul {
+  display: inline-block;
+}
+
+.footer-nav > ul > li {
+  display: block;
+  float: left;
+}
+
+.footer-nav > ul > li:not(:last-child):after {
+  display: inline-block;
+  content: '|';
+  margin: 0 10px;
+}
+
 /* Feature Sections */
 
 .feature-section {
