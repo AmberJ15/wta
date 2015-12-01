@@ -14,8 +14,8 @@
   box-sizing: border-box;
 }
 
-body {
-  padding-top: 60px;
+.page-main {
+  padding: 2rem 0;
 }
 
 .wrapper-main {
@@ -77,7 +77,6 @@ body {
 div, section, main, aside, header, footer, article {
   /*padding: .5em;
   /*margin-bottom: 1em;*/
-  margin-right:10px;
 }
 
 img {
@@ -251,6 +250,7 @@ input[type=text] {
 
 .page-footer {
   background-color: none;
+  border-top: 3px solid #927350;
   color: #0F2167;
   text-align: center;
 }
@@ -463,10 +463,5 @@ input[type=text] {
   .col-lg-10 { width: 83.3333%; }
   .col-lg-11 { width: 91.6666%; }
   .col-lg-12 { width: 100%;     }
-
-  .page-footer {
-    max-width: 900px;
-    margin: auto;
-  }
 
 }
