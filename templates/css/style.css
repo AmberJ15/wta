@@ -187,6 +187,10 @@ input[type=text] {
   justify-content: center;
 }
 
+.paradeiser .paradeiser_dropdown, .paradeiser a {
+  font-family:-apple-system,-apple-system-body,'Mandali', Roboto,"Helvetica Neue","Segoe UI",Arial,sans-serif;
+}
+
 .navbar-top.paradeiser:first-child {
   border-bottom: 3px solid #927350;
 }
