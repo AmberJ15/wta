@@ -450,6 +450,10 @@ input[type=text] {
     display: inline-block;
   }
 
+  .contact {
+    text-align: left;
+  }
+
 }
 @media screen and (max-width: 860px) {
   .wrapper-main {
