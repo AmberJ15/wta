@@ -101,7 +101,8 @@ body {
   font-family: 'Mandali', Helvetica, Arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3,
+.contact dt {
   font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
   color: #67271E;
 }
@@ -410,6 +411,7 @@ input[type=text] {
   .col-xs-10 { width: 83.3333%; }
   .col-xs-11 { width: 91.6666%; }
   .col-xs-12 { width: 100%;     }
+
   .contact {
     float: left;
     padding-top: 1em;
