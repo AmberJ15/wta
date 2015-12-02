@@ -344,7 +344,7 @@ input[type=text] {
   line-height: 1.75rem;
 }
 
-.circle-number {
+.circle {
 
   width: 4rem;
   height: 4rem;
@@ -362,6 +362,14 @@ input[type=text] {
   text-align: center;
   vertical-align: bottom;
 
+}
+
+.circle.circle-social {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  line-height: 2rem;
+  font-size: 1rem;
 }
 
 
