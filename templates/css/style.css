@@ -490,3 +490,22 @@ input[type=text] {
   .col-lg-12 { width: 100%;     }
 
 }
+
+.swatch {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    margin: 1em 1.5em;
+}
+
+.swatch-Maroon{background-color:#67271E}
+.swatch-Sandstone{background-color:#927350}
+.swatch-NavyBlue{background-color:#0F2167}
+
+.mandali{font-family:mandali}
+.sourceserif{font-family:'source serif pro'}
+
+.pattern-library .paradeiser {
+  top: inherit;
+  position: inherit;
+}
