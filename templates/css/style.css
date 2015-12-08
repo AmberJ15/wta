@@ -25,6 +25,7 @@
 .padded-content {
   max-width: 800px;
   margin: 0 auto;
+  padding: 0 30px;
 }
 
 /* Twelve column grid */
@@ -272,10 +273,9 @@ input[type=text] {
 }
 
 .contact {
-  float: left;
-  padding-top: 1em;
+  padding: 1em;
   padding-bottom: 2em;
-  width: 30%;
+  font-size: 1rem;
 }
 
 .contact a:link {
@@ -416,11 +416,7 @@ input[type=text] {
   .col-xs-12 { width: 100%;     }
 
   .contact {
-    float: left;
-    padding-top: 1em;
-    padding-bottom: 2em;
-    width: 30%;
-    font-size:70%;
+    font-size: 0.75rem;
   }
 
   .button-left {
@@ -471,15 +467,12 @@ input[type=text] {
   }
 
   .contact {
+    width: 25%;
+    float: left;
+    padding-left: 0;
     text-align: left;
   }
 
-}
-
-@media screen and (max-width: 860px) {
-  .wrapper-main {
-    margin: 0 30px;
-  }
 }
 
 @media screen and (min-width: 1024px) {
