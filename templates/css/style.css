@@ -492,7 +492,6 @@ input[type=text] {
     width: 70px;
     height: 70px;
     display: inline-block;
-    margin: 1em 1.5em;
 }
 
 .swatch-Maroon{background-color:#67271E}
@@ -505,4 +504,9 @@ input[type=text] {
 .pattern-library .paradeiser {
   top: inherit;
   position: inherit;
+}
+
+.swatch-container {
+    display: inline-block;
+    margin: 1em 1.5em;
 }
