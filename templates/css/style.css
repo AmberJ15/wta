@@ -78,9 +78,8 @@
 
 /* Global */
 
-div, section, main, aside, header, footer, article {
-  /*padding: .5em;
-  /*margin-bottom: 1em;*/
+section, main, aside, header, footer, article {
+  display: block;
 }
 
 img {
@@ -102,7 +101,7 @@ body {
 }
 
 h1, h2, h3,
-.contact dt {
+.page-footer dt {
   font-family: 'Source Serif Pro', Georgia, 'Times New Roman', Times, serif;
   color: #67271E;
 }
@@ -283,6 +282,10 @@ input[type=text] {
   color:#0F2167;
 }
 
+.social a {
+  line-height: 2.5rem;
+}
+
 .social a:hover {
   text-decoration: none;
 }
@@ -419,12 +422,15 @@ input[type=text] {
     width: 30%;
     font-size:70%;
   }
-    .button-left {
-      display:inline-block;
-    }
-    .wrapper-main {
-      margin: 0 auto 30px 30px;
+
+  .button-left {
+    display:inline-block;
   }
+
+  .wrapper-main {
+    margin: 0 auto 30px 30px;
+  }
+
 }
 
 @media screen and (min-width: 320px) {
@@ -441,6 +447,7 @@ input[type=text] {
   .col-sm-10 { width: 83.3333%; }
   .col-sm-11 { width: 91.6666%; }
   .col-sm-12 { width: 100%;     }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -468,10 +475,11 @@ input[type=text] {
   }
 
 }
+
 @media screen and (max-width: 860px) {
   .wrapper-main {
-    margin: 0 30px 0px 30px;
-}
+    margin: 0 30px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
