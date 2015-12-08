@@ -415,10 +415,6 @@ input[type=text] {
   .col-xs-11 { width: 91.6666%; }
   .col-xs-12 { width: 100%;     }
 
-  .contact {
-    font-size: 0.75rem;
-  }
-
   .button-left {
     display:inline-block;
   }
