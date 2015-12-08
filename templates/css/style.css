@@ -22,10 +22,10 @@
 
 }
 
-.padded-content {
+.content-padded {
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 1rem;
 }
 
 /* Twelve column grid */
