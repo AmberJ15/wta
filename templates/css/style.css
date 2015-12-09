@@ -18,14 +18,17 @@
   padding: 2rem 0;
 }
 
-.wrapper-main {
-
+.wrapper-content {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .content-padded {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 1rem;
+  margin: 0 1rem;
+}
+
+.content-full-width {
+  width: 100%;
 }
 
 /* Twelve column grid */
@@ -417,10 +420,6 @@ input[type=text] {
 
   .button-left {
     display:inline-block;
-  }
-
-  .wrapper-main {
-    margin: 0 auto 30px 30px;
   }
 
 }
