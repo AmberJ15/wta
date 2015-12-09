@@ -126,7 +126,7 @@ a:hover {
 input[type=submit],
 input[type=email],
 input[type=text] {
-  color: #fff;
+  color: #979797;;
   font-family: 'Mandali', Helvetica, Arial, sans-serif;
 }
 
@@ -143,6 +143,7 @@ input[type=submit] {
   -webkit-border-radius: 5px;
   border-radius: 5px;
   font-size: 110%;
+
 }
 
 input[type=email],
