@@ -123,11 +123,13 @@ a:hover {
   text-decoration: underline;
 }
 
-input[type=submit],
+input[type=submit] {
+  color: white;
+  font-family: 'Mandali', Helvetica, Arial, sans-serif;
+}
 input[type=email],
 input[type=text] {
-  color: #979797;;
-  font-family: 'Mandali', Helvetica, Arial, sans-serif;
+  color:#979797;
 }
 
 .centered {
