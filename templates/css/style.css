@@ -314,11 +314,13 @@ input[type=text] {
 
 .footer-nav > ul {
   display: inline-block;
+  /* HACK: get rid of spaces between blocks */
+  font-size: 0;
 }
 
 .footer-nav > ul > li {
-  display: block;
-  float: left;
+  display: inline-block;
+  font-size: 1rem;
 }
 
 .footer-nav > ul > li:not(:last-child):after {
