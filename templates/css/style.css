@@ -168,6 +168,7 @@ input[type=text] {
   border-radius: 5px;
   color: #fff;
   font-size: 110%;
+  text-align: center;
 }
 
 .action-link {
