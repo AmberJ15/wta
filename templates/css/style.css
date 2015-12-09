@@ -462,10 +462,6 @@ input[type=text] {
   .col-md-11 { width: 91.6666%; }
   .col-md-12 { width: 100%;     }
 
-  .content-padded {
-    margin: 0;
-  }
-
   .action-link {
     width: auto;
     display: inline-block;
@@ -476,6 +472,14 @@ input[type=text] {
     float: left;
     padding-left: 0;
     text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 850px) {
+
+  .content-padded {
+    margin: 0;
   }
 
 }
